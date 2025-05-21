@@ -1,22 +1,47 @@
 #include <stdio.h>
+int main()
+{
+    int populacao = 621863;
+    int turismo = 15;
+    float area_em_km = 192746;
+    float PIB = 3500000;
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+    char estado [] = "Minas gerais";
+    char codigo_da_carta [] = "A01";
+    char nome_da_cidade []= "contagem";
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Carta 1 \n");
+    printf("Codigo da carta: %s\n" , codigo_da_carta);
+    printf("Estado: %s\n", estado);   
+    printf("Cidade: %s\n" , nome_da_cidade);
+    printf("populacao: %d\n" ,populacao);
+    printf("turismo: %d\n" , turismo);
+    printf("area em km: %.2f\n" , area_em_km);
+    printf("PIB: %.2f\n" , PIB);
+
+    printf("\n");
+
+
+    int Populacao2 = 1774718;
+    int turismo2 = 20;
+    float area_em_km2 = 434892;
+    float PIB2 = 4990702;
+
+    char estado2 [] = "parana";
+    char codigo_da_carta2 [] ="A02";
+    char nome_da_cidade2 [] = "curitiba";
+
+    printf ("carta 2 \n");
+    printf("codigo da carta: %s\n", codigo_da_carta2);
+    printf("estado: %s\n", estado2);
+    printf("cidade: %S\n", nome_da_cidade2);
+    printf("populacao: %d\n", Populacao2);
+    printf("turismo: %d\n",turismo2);
+    printf("area em km: %.2f\n", area_em_km2);
+    printf("PIB: %.2f\n" , PIB2);
+
+
+
 
     return 0;
 }
